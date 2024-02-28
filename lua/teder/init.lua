@@ -10,7 +10,7 @@ vim.cmd.colorscheme "catppuccin"
 vim.opt.nu = true
 vim.opt.relativenumber = true
 vim.opt.expandtab = true
-vim.opt.shiftwidth = 4
+vim.opt.shiftwidth = 2
 vim.opt.wrap = false
 vim.opt.scrolloff = 8
 vim.opt.hlsearch = false

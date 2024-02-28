@@ -22,7 +22,7 @@ null_ls.setup({
 })
 
 require("prettier").setup({
-  bin = 'prettierd',
+  bin = 'prettier',
   filetypes = {
     "css",
     "graphql",
