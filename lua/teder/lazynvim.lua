@@ -42,6 +42,7 @@ local plugins = {
     "windwp/nvim-ts-autotag",
     "lewis6991/gitsigns.nvim",
     'numToStr/Comment.nvim',
+    'tpope/vim-fugitive',
 }
 
 require("lazy").setup(plugins)

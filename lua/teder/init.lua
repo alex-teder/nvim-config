@@ -49,3 +49,5 @@ vim.keymap.set(
     ":lua vim.diagnostic.open_float()<CR>", 
     { silent = true }
 )
+
+vim.keymap.set("n", "<leader>gp", ":Gitsigns preview_hunk<CR>", { silent = true })
