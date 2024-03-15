@@ -51,3 +51,5 @@ vim.keymap.set(
 )
 
 vim.keymap.set("n", "<leader>gp", ":Gitsigns preview_hunk<CR>", { silent = true })
+
+vim.keymap.set("n", "<leader>vs", ":vsplit<CR>", {})
